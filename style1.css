@@ -1,0 +1,61 @@
+.grid{
+    background-color:rgb(70, 236, 139);
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius:10px;
+}
+.gridA{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gridZ:hover{
+background-color: rgb(26, 252, 26);
+color: black;
+}
+.gridB img{
+    border-style: dashed;
+    border-width: 19px;
+    border-color: rgb(8, 102, 39);
+}
+.gridB:hover{
+    transform: scale(1.06);
+    transition-duration: 1s;
+}
+.gridB:hover img{
+    transform:rotate(-30deg);
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+.gridC{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+.gridD:hover{
+    transform: scale(1.06);
+    transition-duration: 1s;
+}
+.img1{
+    border: groove;
+    border-width: 13px;
+    border-color: #aaaa12;
+}
+.img1:hover{
+    transform: translate(50px);
+    opacity: 0.5;
+    transition: 1s;
+}
+.swear{
+    opacity: 0.5;
+}
+.swear:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+
+}
